@@ -5,11 +5,11 @@
 
 2. Run `./run/bootnode.sh` to start a bootnode.
 
-3. Run `./run/run_node.sh` to start 3 (or n) mining nodes (validators). You will be able to see ethereum console and mining process.
+3. Run (in another window)`./run/run_node.sh` to start 3 (or n) mining nodes (validators). You will be able to see ethereum console and mining process.
 
 4. Run (in another window) `./run/run_clients.sh` to start 5(or n) clients. You will be able to see ethereum console of the first client.
 
-5. Run (in another window) `./eth_rpc_client_py/test.py` to starts testing. This script will send in the loop `send_etherium` transactions between clients and show how many transactions per second the blockchain setup can process.
+5. Run `./eth_rpc_client_py/test.py` to starts testing. This script will send in the loop `send_etherium` transactions between clients and show how many transactions per second the blockchain setup can process.
 
 **Addresses**
 
