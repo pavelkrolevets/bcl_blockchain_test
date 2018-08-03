@@ -3,13 +3,15 @@
 
 1. Create docker image from Dockerfile in `run` folder. Command: `docker build -t nodes/node:latest .`
 
-2. Run `./run/bootnode.sh` to start a bootnode.
+2. From `run`  to start a bootnode.
 
 3. Run (in another window)`./run/run_node.sh` to start 3 (or n) mining nodes (validators). You will be able to see ethereum console and mining process.
 
 4. Run (in another window) `./run/run_clients.sh` to start 5(or n) clients. You will be able to see ethereum console of the first client.
 
-5. From `./eth_rpc_client_py/` Run `python test.py` to starts testing. This script will send in the loop `send_etherium` transactions between clients and show how many transactions per second the blockchain setup can process.
+5. Install Python 3.6. and dependencies `pip install requests`, `pip install json`
+
+6. From `./eth_rpc_client_py/` Run `python test.py` to starts testing. This script will send in the loop `send_etherium` transactions between clients and show how many transactions per second the blockchain setup can process.
 
 **Addresses**
 
